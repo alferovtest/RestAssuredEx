@@ -22,7 +22,7 @@ public class DeletePlayerTests extends BaseTest {
         Response responseAll = PlayerController.getAllPlayers();
         PlayerGetAllPlayersResponseDTO responseDTO = responseAll.as(PlayerGetAllPlayersResponseDTO.class);
         List<PlayerDTO> players = responseDTO.getPlayers();
-        Integer playerID = players.stream().filter(playerDTO -> playerDTO.getAge() == 55).findFirst().get().getId();
+        Integer playerID = players.stream().filter(playerDTO -> playerDTO.getAge() == 45).findFirst().get().getId();
 
 
         PlayerGetDeleteByPlayerIdRequestDTO playerGetDeleteByPlayerIdRequestDTO = new PlayerGetDeleteByPlayerIdRequestDTO();

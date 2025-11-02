@@ -20,7 +20,7 @@ public class CreatePlayerTests extends BaseTest {
         Integer random = Util.generateSixDigitNumber();
 
         HashMap<String, String> parameters = new HashMap<>();
-        parameters.put("age", "55");
+        parameters.put("age", "45");
         parameters.put("editor", editor);
         parameters.put("gender", "male");
         parameters.put("login", "login" + random);

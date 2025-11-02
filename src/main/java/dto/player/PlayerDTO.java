@@ -124,7 +124,7 @@ public class PlayerDTO {
         private String password;
         private String role;
         private String screenName;
-        private Integer id;
+        private int id;
 
         public Builder age(Integer age) {
             this.age = age;
@@ -161,7 +161,7 @@ public class PlayerDTO {
             return this;
         }
 
-        public Builder id(Integer id) {
+        public Builder id(int id) {
             this.id = id;
             return this;
         }
