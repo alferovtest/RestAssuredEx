@@ -88,7 +88,7 @@ During analysis and implementation of tests for the provided REST controller, se
 
 These issues should be addressed in the backend implementation, since incorrect HTTP methods and response codes may cause instability, security risks, or incompatibility with REST clients and automated testing tools.
 
-
+**API works unstable. Ex.(createPlayer stopped working for me). But, I've created many players before.**
 
 
 
